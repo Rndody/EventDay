@@ -67,7 +67,7 @@ a:hover {
 }
 
 #home {
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.846)), url(../sewar/R.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.367), rgba(0, 0, 0, 0.846)), url(../sewar/R.jpeg);
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
