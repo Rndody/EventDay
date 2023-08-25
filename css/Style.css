@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+    /* display: block; */
+    text-shadow: 1.5px 0px 0px black,
+        -1.5px 0px 0px black,
+        0px 1.5px 0px black,
+        0px -1.5px 0px black;
+    color: bisque;
+}
+
+a:hover {
+    text-shadow: 0.2px 0px 0px black,
+        -0.2px 0px 0px black,
+        0px 0.2px 0px black,
+        0px -0.2px 0px black;
+    color: #c30000;
+}
+
+#menu {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0)), url(../sewar/OIP.jpeg);
+    background-position: center center;
+    background-size: cover;
+    z-index: 99;
+    transition: 1.2s;
+    -webkit-transition: 1.2s;
+    -moz-transition: 1.2s;
+    -ms-transition: 1.2s;
+    -o-transition: 1.2s;
+    left:-25%;
+}
+
+#closeIcon {
+    left: 42%;
+    top: 5%;
+    cursor: pointer;
+    background: #c30000;
+    background: linear-gradient(to left, beige 0%, black 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+#closeIcon:hover {
+    background: #c30000;
+    background: linear-gradient(to left, black 0%, #c30000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menuIcon {
+    left: 102%;
+    cursor: pointer;
+    top: 50%;
+    background: #c30000;
+    background: linear-gradient(to left, beige 0%, black 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menuIcon:hover {
+    background: #c30000;
+    background: linear-gradient(to left, black 0%, #c30000 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.846)), url(../sewar/R.jpeg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.home-text {
+    background: #FF0000;
+    background: linear-gradient(to left, #db08c9 0%, #28de2ef8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h3-bg-color {
+    background-color: rgba(255, 0, 0, 0.753);
+    border-bottom: 1px solid burlywood;
+    margin: 0%;
+}
+
+.details-bg {
+    background-color: burlywood;
+    margin: 0%;
+}
+
+#duration {
+    /* min-height: 35vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.601), rgba(11, 1, 11, 0.675)), url(../sewar/18-Ideas_5-Evangelism-Tips-for-Your-Small-Group_1021x640-0209.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+q{
+    display: none;
+    
+}
+.square {
+    border: beige solid 3px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.social-icons i {
+    border: rgba(0, 0, 0, 0.389) solid 0.6px;
+    /* padding: 10px; */
+}
+
+.social-icons i:hover {
+    background-color: #c30000;
+    color: beige;
+}
+
+textarea {
+    resize: none;
+}
+#details{
+    min-height: 50vh;
+    background-image: url("../sewar/pngwing.com\ \(15\).png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
